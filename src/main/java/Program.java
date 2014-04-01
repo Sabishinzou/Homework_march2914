@@ -3,8 +3,9 @@
  */
 public class Program {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Stack s = new Stack();
+        System.out.println(s.peek());
         s.push("01");s.push("02");s.push("03");s.push("04");s.push("05");s.push("06");
         showStack(s);
         System.out.println(s.size());

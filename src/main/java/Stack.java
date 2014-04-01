@@ -49,11 +49,17 @@ public class Stack<T> {
     public void push(T elem) {
         this.getHead().add(elem);
     }
-    public T peek() {
-        return this.getHead().peek();
+    public T peek() throws Exception {
+        if (this.getHead().getList() != null)
+            return this.getHead().peek();
+        else
+            throw new Exception("Stack is empty.");
     }
-    public T pop() {
-        return this.getHead().remove();
+    public T pop() throws Exception {
+        if (this.getHead().getList() != null)
+            return this.getHead().remove();
+        else
+            throw new Exception("Stack is empty.");
     }
     public int size() {
         LinkedList<T>.Refer<T> elem_of_stack = this.getHead().getList();

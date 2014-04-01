@@ -4,6 +4,6 @@
 public interface List<T> {
 
     void add(T elem);
-    T peek();
-    T remove();
+    T peek() throws Exception;
+    T remove() throws Exception;
 }

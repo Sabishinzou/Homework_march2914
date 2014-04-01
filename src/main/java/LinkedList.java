@@ -62,16 +62,18 @@ public class LinkedList<T> implements List<T> {
     }
 
     @Override
-    public T peek() {
-        //тут надо бы обработку исключений но не знаю как правильно
+    public T peek() throws Exception {
+        //тут обработка исключений но не знаю как правильно ли в целом,
+        //сделал как вы предлагали по прошлой домашке
+        //хотя возможно лучше делать return null вместо throw new Exception("List is empty.");
         if (this.getList() != null)
             return getList().getData();
         else
-            return null;
+            throw new Exception("List is empty.");
     }
 
     @Override
-    public T remove() {
+    public T remove() throws Exception {
         if (this.getList() != null) {
             Refer<T> returning_elem = this.getList();
             this.setList(returning_elem.getNext());
@@ -79,7 +81,7 @@ public class LinkedList<T> implements List<T> {
             //здесь еще наверное следовало бы использовать(а для начала описать) деструктор,
             // а не просто все оставить на автоматический сборщик мусора
         }
-        else return null; //нечего удалять и опять же нужна обработка исключений
+        else throw new Exception("List is empty."); //нечего удалять
     }
 
 }

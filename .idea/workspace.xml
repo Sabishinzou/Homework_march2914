@@ -76,7 +76,7 @@
       <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="8" column="1" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="3.3904495" vertical-offset="0" max-vertical-offset="1343">
+            <state line="73" column="0" selection-start="2043" selection-end="2043" vertical-scroll-proportion="2.9129214" vertical-offset="0" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="LinkedListTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+            <state line="9" column="28" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="Stack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="61" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1190">
+            <state line="59" column="43" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,7 @@
       <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="612">
+            <state line="11" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -137,13 +137,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/List.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/LinkedListTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/List.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/Program.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -302,7 +302,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
+  <component name="RunManager" selected="Application.Runner">
     <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <option name="VM_PARAMETERS" />
@@ -697,9 +697,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="61" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+        <state line="59" column="43" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
@@ -713,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="612">
+        <state line="11" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -725,23 +739,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2338" selection-end="2338" vertical-scroll-proportion="3.3904495" vertical-offset="0" max-vertical-offset="1343">
+        <state line="73" column="0" selection-start="2043" selection-end="2043" vertical-scroll-proportion="2.9129214" vertical-offset="0" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
