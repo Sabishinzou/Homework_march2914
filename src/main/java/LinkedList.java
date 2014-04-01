@@ -47,7 +47,8 @@ public class LinkedList<T> implements List<T> {
     }
 
     /*
-    //эта функция необходима, если класс Refer private, т.к. в классе Stack при использовании head.getList().getNext()
+    //эта функция необходима, если класс Refer private, (инче это функция не нужна),
+    //т.к. в классе Stack при использовании head.getList().getNext()
     //возникает ошибка доступа
     public Refer<T> getNextFromList() {
         return this.getList().getNext();
@@ -63,7 +64,7 @@ public class LinkedList<T> implements List<T> {
 
     @Override
     public T peek() throws Exception {
-        //тут обработка исключений но не знаю как правильно ли в целом,
+        //тут обработка исключений но не знаю правильно ли в целом,
         //сделал как вы предлагали по прошлой домашке
         //хотя возможно лучше делать return null вместо throw new Exception("List is empty.");
         if (this.getList() != null)
